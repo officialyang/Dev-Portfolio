@@ -1,7 +1,4 @@
-# Module 5 - Group Portion
-Student IDs: 456925, 441705
-
-## Calendar
+# Calendar
 Link: http://ec2-18-221-106-224.us-east-2.compute.amazonaws.com/~matthewyang/module5/calendar.php
 
 ## Login Information
@@ -21,7 +18,4 @@ For this project, we were tasked to create a calendar website where a user could
 
 2. The second creative functionality we brought to life was the ability to share specific events with other users on the calendar website. To do so, just click on the event, then the share button, and type in the user you want to share the event with! We had to create a column in the events table called 'isGroup' to keep track of whether the event is grouped or not, and execute the queries accordingly. The events are linked so if you modify or delete an event on one account, the event on the other account will be likewise modified or deleted. This is a great feature to connect users within the site!
 
-3. The final creative element we integrated was giving the users the ability to write notes for each event. To do so, edit an event like you normally would do, and simply type up a note! We had to create a column for notes in the database. Notes are synced among group events, additionally. 
-
-
-    
+3. The final creative element we integrated was giving the users the ability to write notes for each event. To do so, edit an event like you normally would do, and simply type up a note! We had to create a column for notes in the database. Notes are synced among group events, additionally.
