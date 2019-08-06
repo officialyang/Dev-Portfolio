@@ -1,0 +1,89 @@
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h1, #subheading, #subheading2, #month_and_arrows, #checkboxes{
+    text-align: center;
+}
+
+#message1, #message2, #create_event_usagemessage{
+    color:red;
+}
+
+#month{
+    display: inline;
+    font-size: 2em;
+}
+
+#year{
+    font-size: 1.8em;
+}
+
+#month_and_arrows{
+    word-spacing: 10px;
+}
+
+#left_arrow:hover, #right_arrow:hover{
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+table{
+    width:100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    text-align: center;
+    padding-top: 10px;
+    vertical-align: top;
+    height: 150px;
+}
+
+
+td ul, td li{
+    width: 0px;
+    /* color: darkblue; */
+}
+
+
+.listed_event:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#create_event{
+    text-align: center;
+}
+
+#create_event_button, #week6{
+    visibility:hidden;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.small{
+    font-size: 80%;
+}
+
+#display_personal + label{
+    color: darkgreen;
+}
+
+#display_work + label{
+    color: darkblue;
+}
+
+#display_school + label{
+    color: darkred;
+}
+
